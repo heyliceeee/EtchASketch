@@ -9,6 +9,11 @@ def move_forwards():
     turtle move forward 10 steps
     """
     tim.forward(10)
+def move_backwards():
+    """
+    turtle move backward 10 steps
+    """
+    tim.backward(10)
 
 
 screen.listen()
